@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" href="favicon.ico">
+    <title>Miss Cyborg Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<!-- NAVIGATION-->
+    <nav id="home">
+        <a class="nav__links" href="#home">Home</a>
+        <a class="nav__links" href="#aboutme">About me</a>
+        <a class="nav__links" href="#portfolio">Portfolio</a>
+        <a class="nav__links" href="#contact">Contact</a>
+      </nav>
+  
+      <section class="home">
+        <h1>Miss Cyborg Dev</h1>
+      </section>
+
+<!--ABOUT ME-->
+
+<section id="aboutme" class="aboutme container-fluid ">
+<div class="d-flex justify-content-around py-5">
+  <div>
+    <h1 class="profil__title">Profile</h1>
+    <p class="profil__text">My name is Roxanne Perron, and I am currently studying web development at the Cégep de Trois-Rivières.<br> My program is the AEC in front-end web development, and it ends next June with an internship in a company.<br><br>
+      I have been working in the IT field since 2016, I have held several positions such as support technician, ERP integrator and quality assurance analysts. I decided to learn to code out of passion and to expand my professional skills.
+      </p>
+  </div>
+  <div>
+    <img class="profil__image pb-5"src="./img/laptop.jpg" alt="Image of a laptop.">
+  </div>
+</div>
+
+<div class="d-flex justify-content-around py-5">
+  <div>
+    <h1 class="profil__title text-center">Techno</h1>
+    <img src="./img/icons/html.png" alt="HTML Logo">
+    <img src="./img/icons/css.png" alt="CSS Logo">
+    <img src="./img/icons/sass.png" alt="Sass Logo">
+    <img src="./img/icons/bootstrap.png" alt="Bootstrap Logo">
+    <img src="./img/icons/javascript.png" alt="JavaScript Logo">
+    <img src="./img/icons/react.png" alt="React Logo">
+    <img src="./img/icons/git.png" alt="Git Logo">
+ </div>
+</div>
+
+<div class="d-flex justify-content-around pt-5">
+  <div>
+    <img class="profil__image px-5"src="./img/devquotes.jpg" alt="Image of a famous developper's quotes.">
+  </div>
+  <div>
+    <h1 class="profil__title">My objectives</h1>
+    <p class="profil__text">With this degree in hand, my short-term goal is to intern with my current employer and work in programming as a frontend developer or as an automated test developer.<br><br> My medium-term goal is to develop skills and have a full-stack developer profile. I would also like to explore the freelancing path and offer my services as a frontend developer.</p>
+  </div>
+</div>
+
+
+
+</section>
+<!--PORTFOLIO-->
+<section id="portfolio"class="container-fluid">
+        <div class="container">
+            <h1 class="portfolio__title">My first projects</h1>
+            <h3 class="portfolio__title2">Made as part of my AEC program in frontend web development</h3>
+        <div class="my-5 row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+            <div class="card h-100">
+                <img src="./img/projets/BurgerShop.png" alt="Image of the Burger Shop website">
+                <div class="card-body">
+                  <h5 class="card-title">Burger Shop</h5>
+                  <p class="card-text">Burger Shop is the final project of the Interface Integration 1 course. This project required us to reproduce a mock-up by applying HTML, CSS Grid, CSS Flexbox and perform the responsive with media queries.</p>
+                  <a href="https://roxperron.github.io/Buger-Shop/" target="_blank" class="card__btn">Visit the website</a>
+                </div>
+              </div>
+            </div>
+
+              <div class="col">
+              <div class="card h-100">
+                <img src="./img/projets/Convertisseur.png" class="card-img-top" alt="Image of the Converter website">
+                <div class="card-body">
+                  <h5 class="card-title">The Converter</h5>
+                  <p class="card-text">The Converter is the final project of the Web Programming 1 course. 
+                    This project required us to build a currency, length and weight converter in Vanilla JavaScript.  
+                    </p>
+                  <a href="https://roxperron.github.io/Convertisseur/" target="_blank" class="card__btn">Visit the website</a>
+                </div>
+              </div>
+            </div>
+              
+              <div class="col">
+              <div class="card h-100 ">
+                <img src="./img/projets/AuKoi.png" class="card-img-top" alt="Image of the Au Koï website">
+                <div class="card-body">
+                  <h5 class="card-title">Au Koï</h5>
+                  <p class="card-text">Au Koï is the final project of the Interface Integration 2 course. 
+                    The theme and the model were free. We have to do the integration with the following technologies: HTML, Sass, Bootstrap and PWA. 
+                  </p>
+                  <a href="https://roxperron.github.io/Au-Koi/" target="_blank"  class="card__btn">Visit the website</a>
+                </div>
+              </div>
+            </div>
+
+              <div class="col">
+              <div class="card h-100 ">
+                <img src="./img/projets/StarWarsApp.png" class="card-img-top" alt="Image of the Star Wars App.">
+                <div class="card-body">
+                  <h5 class="card-title">Star Wars App</h5>
+                  <p class="card-text">Star Wars App is our final project of the Web Programming 2 course. We have to create a web application with React, use an API, React Router, Redux and create an authentication using Formik and Yup.</p>
+                  <a href="https://roxperron.github.io/Star-Wars-App/" target="_blank" class="card__btn">Visit the app</a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-item-center px-5">
+        <p class="portfolio__text">Visit my <a href="https://github.com/roxperron" target="_blank"><img src="./img/icons/github.png" alt="Icône GitHub"></a></p>
+      </div>
+</section>
+<!--CONTACT-->
+<footer  id="contact" class="container-fluid">
+  <div class="d-flex justify-content-center align-item-center">
+    <p>To join me:</p>
+  </div>
+  <div class="d-flex justify-content-around align-item-center">
+      <address><a href="mailto:misscyborddev@gmail.com"><img src="./img/icons/email.png" alt="Email icon"></a></address>
+      <a href="https://twitter.com/misscyborgdev" target="_blank"><img src="./img/icons/twitter.png" alt="Twitter icon"></a>
+      <a href="https://www.linkedin.com/in/roxanne-perron-97170917b/" target="_blank"><img src="./img/icons/linkedin.png" alt="Linkedin icon"></a>
+
+</div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>   
+    
+</body>
+</html>

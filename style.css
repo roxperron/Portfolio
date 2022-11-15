@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Varta&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #FFFFFF;
+}
+
+/* Navigation */
+nav {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  font-size:900;
+  font-weight: bolder;
+  font-family: Varta;
+}
+nav a {
+  color: #FFFFFF;
+  font-size: 25px;
+  margin: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #F72585;
+}
+
+.nav__links:hover {
+  color: #F72585;
+}
+
+.home {
+  height: 100vh;
+  background: url('./img/cyborg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 50px;
+  position: relative;
+}
+
+.home h1 {
+  font-family: Sedgwick Ave Display;
+  padding: 700px 0 0 850px;
+  font-size: clamp(25px, 7vw, 110px);
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+
+
+/* ABOUT ME */ 
+#aboutme{
+    background-color:#F72585 ;
+    padding: 100px;
+}
+
+.profil__title{
+    font-family: Sedgwick Ave Display;
+    color:#FFFFFF;
+}
+
+.profil__text, .portfolio__title2{
+    font-family: Varta;
+    color:#FFFFFF;
+    font-size: 24px;
+}
+
+
+
+.profil__image{
+  width: 100%;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio{
+  background-color:#0a2472;
+  padding: 100px;
+}
+
+.portfolio__title{
+  font-family: Sedgwick Ave Display;
+  color:#FFFFFF;
+}
+
+
+.portfolio__text{
+  font-family: Varta;
+  color:#FFFFFF;
+  font-size: 48px;
+}
+
+.card-text{
+  font-family: Varta;
+  color:#0a2472;
+  font-size: 20px;
+}
+
+.card-title{
+  font-family: Varta;
+  color:#0a2472;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card__btn{
+  background-color: #0a2472;
+  color:#FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card__btn:hover{
+  background-color: #F72585;
+  color:#FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*FOOTER*/
+#contact{
+  background-color:#3c096c;
+  font-family: Varta;
+  color:#FFFFFF;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+
+/* RESPONSIVE  */
+/* NAVIGATION */
+
+@media screen and (max-width: 650px){
+
+  .home {
+    height: 60vh;
+    padding: 0 25px;
+  }
+  .home h1 {
+    padding-top: 100px;
+  }
+  nav a {
+    font-size: 18px;
+
+}
+
+@media screen and (max-width: 350px){
+  .home {
+    padding: 0 10px;
+  }
+}}
+
